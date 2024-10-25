@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhivriddhi WebPage </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <img src="logo.png" alt="LOGO" id="logo" >
+        <h1><b>Abhivriddhi Coordinators Recruitment Form </b></h1>
+        <hr>
+        <form action="/action">
+            <div>
+                <input type="text" placeholder="First Name" name="fname"/>
+                <input type="text" placeholder="Last name" name="lname"/>
+            </div>
+            <hr>
+            <div>
+                <label for="AY"><b>Please select your Academic year</b></label>
+                <select name="AY" id="AY">
+                    <option value="FY">First Year</option>
+                    <option value="SY">Second Year</option>
+                    <option value="TY">Third Year</option>
+                    <option value="FinalYear">Final Year</option>
+                </select>
+            </div>
+            <hr>
+            <div>
+                <label><b>Please Select Your Domain :</b></label><br>
+                <input type="radio"name="Domain" id="TechnicalDomain"/>
+                <label for="TechnicalDomain">Technical Domain</label>
+
+                <input type="radio"name="Domain" id="ContentDomain"/>  
+                <label for="ContentDomain">Content Domain</label>
+
+                <input type="radio"name="Domain" id="AestheticsDomain"/>
+                <label for="AestheticsDomain">Aesthetics Domain</label>
+
+                <input type="radio"name="Domain" id="PhotographyDomain"/>
+                <label for="PhotographyDomain">Photography Domain</label>
+            </div>
+            <hr>
+    </nav>
+
+    <section class="hero">
+        <div>
+            <label for="service"><b>Do you agree to all terms of service ?</b></label>
+            <input type="checkbox" name="service" id="service" />
+            <label for="service">Yes, I agree</label>
+        </div>
+        <hr>
+        <div>
+            <button>Register</button>
+        </div>
+    </form>
+
+</section>
+
+</body>
+</html>
